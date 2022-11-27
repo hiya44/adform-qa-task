@@ -1,0 +1,4 @@
+SELECT COALESCE(CAST(users.clientid AS VARCHAR(20)),'n/a') AS client , COALESCE(SUM(orders.total),0.00) AS total
+FROM users FULL JOIN orders ON users.userid=orders.userid
+GROUP BY users.clientid
+ORDER BY total DESC LIMIT 2

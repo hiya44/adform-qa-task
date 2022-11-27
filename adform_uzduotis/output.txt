@@ -1,0 +1,18 @@
+male, 1800-01-01
+female, 1800-01-01
+male, 1900-01-01
+female, 1900-01-01
+male, 2000-01-01
+female, 2000-01-01
+invalid: can not start with an 7 
+invalid: can not start with an 8 
+invalid: can not start with an 9 
+invalid: must be 11 characters long 
+invalid: must be 11 characters long 
+invalid: birth date is wrong
+invalid: must be 11 characters long 
+male, 1933-06-18
+invalid: birth date is wrong
+invalid: can not start with an a 
+invalid: birth date is wrong
+invalid: can not start with an - 
